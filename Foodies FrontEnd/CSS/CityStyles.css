@@ -1,0 +1,20 @@
+.city{
+
+	margin-top: 100px;
+
+}
+
+.city img{
+
+	width: 110%;
+	margin-top: 50px;
+
+}
+
+
+.city img:hover {
+
+	transform: scale(1.05);
+	
+
+}

@@ -1,0 +1,43 @@
+.chefs{
+
+	margin-top: 100px;
+
+}
+
+.chefs img{
+
+	width: 100%;
+	margin-top: 50px;
+
+}
+
+
+.chefs img:hover {
+
+	transform: scale(1.05);
+	
+
+}
+
+.btn{
+
+	border:1px solid grey;
+	color: white;
+	background-color: grey;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-right: 15px;
+	text-align: center;
+	width: 40%;
+	height: 40%;
+
+
+}
+.btn:hover{
+
+	background-color: #e67e22;
+	color: white;
+	transform: scale(1.05);
+	transition: all 0.2s ease-in;
+
+}

@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 10%;
+
+}
+
+.left-bar {
+  position: absolute;
+  width: 100%;
+  float: left;
+  text-align: left;
+  top: -15px;
+  margin-left: -15px;
+ 
+}
+
+.left-bar h4{
+
+   display: inline;
+   position: relative;
+   width: 100%;
+   text-align: left;
+   right: -20px;
+   top: 50%;
+   color: grey;
+   font-weight: bold;
+   overflow: hidden;
+}
+
+
+.styling-left{
+
+	display: inline;
+	width: 100px;
+	height: 100px;
+	margin: 15px;
+	color: grey;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+.styling-left i{
+
+	line-height: 80px;
+	font-size: 28px;
+	
+}
+
+.styling-left i:hover{
+	
+	transform: scale(1.3);
+	color: #e67e22;
+
+}
+
+.side-bar h4{
+
+   display: inline;
+   position: relative;
+   width: 100%;
+   text-align: center;
+   left: -20px;
+   top: 50%;
+   color: grey;
+   font-weight: bold;
+   overflow: hidden;
+}
+
+.side-bar {
+  position: absolute;
+  transform: translateX(40%);
+  width: 100%;
+  float: right;
+  text-align: center;
+  top: -15px;
+  margin-right: -15px;
+  
+
+
+}
+.styling{
+
+	display: inline;
+	width: 100px;
+	height: 100px;
+	margin: 15px;
+	color: grey;
+	overflow: hidden;
+	position: relative;
+	
+
+
+}
+
+.styling i{
+
+	line-height: 80px;
+	font-size: 28px;
+	
+}
+
+.styling i:hover{
+	transform: scale(1.3);
+	color: #e67e22;
+
+}
+
+
+
+h1{
+	color: white;
+}
+
+header{
+
+	margin-top: 10px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/steamy.jpg");
+	height: 110vh;
+	background-size: cover;
+	background-position: center; 
+	background-attachment: fixed;
+
+}
+
+.row{
+	
+	margin: 0 auto;
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+
+
+}
+
+.main-nav li{
+
+	display: inline-block;
+	margin: 20px;
+
+} 
+
+.main-nav li a{
+
+    color:white;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.main-nav li a:hover{
+
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;     
+	padding: 15px;
+	transition: all 0.5s ease-in;
+}
+
+
+
+.hero{
+
+	position: absolute;
+	width: 1140px;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.hero h3{
+
+	text-align: justify;
+	font-weight: lighter; 
+}
+
+.btn{
+
+	border:1px solid #e67e22;
+	padding: 10px 30px;
+	color: #e67e22;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 15px;
+
+	
+
+
+
+}
+
+.btn:hover{
+
+	background-color: #e67e22;
+	color: white;
+	transition: all 0.8s ease-in;
+
+}
+
+
+
+.button{
+
+	margin-top: -50px;
+	margin-left: 10px;
+	
+	
+
+}
+
+.copy{
+
+	width: 70%;
+	margin-left: 15%;
+}
+
+.features h3{
+
+	margin-top: 60px;
+
+
+}
+
+h3:after{
+
+	width: 80px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 20px;
+}

@@ -1,0 +1,76 @@
+.hero{
+
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+
+.search-box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #2f3640;
+	height: 50px;
+	border-radius: 40px;
+	padding: 10px;
+
+}
+
+
+.search-btn{
+
+	color: #e84118;
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+
+}
+
+.search-box:hover > .search-text{
+
+	width: 50vh;
+	padding: 0 6px;
+	
+	
+
+}
+
+.search-box:hover > .search-btn{
+
+	background: white;
+	
+
+}
+
+
+
+.search-text{
+	border: none;
+	background: none;
+	outline:none;
+	float:left;
+	padding: 0;
+	color:white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width:0px;
+	transition: 0.4s;
+
+}
+
+
+
+
+
